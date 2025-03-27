@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced HTML5 Elements and Forms</title>
+  </head>
+  <!-- Ordered list with roman numerals -->
+   <section>
+    <h2>HTML Lists</h2>
+    <h3>Ordered list with roman numerals</h3>
+    <ol type="I">
+      <li>Uganda</li>
+      <li>Tanzania</li>
+      <li>Rwanda</li>
+      <li>South Sudan</li>
+      <li>Kenya</li>
+    </ol>
+   </section>
+    
+    <!-- external image from pexels.com -->
+    <section>
+      <h2>HTML Images</h2>
+      <h3>External image from pexels.com</h3>
+      <img
+        src="https://images.pexels.com/photos/7412094/pexels-photo-7412094.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="A well-decorated world map"
+        width="500"
+        height="300"
+      />
+  <section>
+
+
+    <!-- Table of Contacts-->
+     <section>
+      <h2>Information Table</h2>
+      <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+      }
+      </style>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Emails</th>
+        </tr>
+
+        <tr>
+          <td>James Kuol</td>
+        <td>Juba town</td>
+        <td>+211919000567</td>
+        <td>j.kuol@gmail.com</td>
+        </tr>
+        
+        <tr>
+          <td>Jimma Sebit</td>
+          <td>Gudele 1</td>
+          <td>+211919000552</td>
+          <td>jimma2005@gmail.com</td>
+          <tr>
+            <tr>
+              <td>John Kueth</td>
+              <td>Gudele 2</td>
+              <td>+211920054732</td>
+              <td>johnkueth@gmail.com</td>
+            </tr>
+           
+          <tr>
+            <td>Jim Mal</td>
+            <td>Munuki A</td>
+            <td>+211917555252</td>
+            <td>jimmal23@gmail.com</td>
+          </tr>
+
+          <tr>
+            <td>Deng Kuol</td>
+            <td>New Site</td>
+            <td>+211910056885</td>
+            <td>dengkuol@gmail.com</td>
+          </tr>
+  </tr>
+       </table>
+     </Section>
+
+    <!-- Form -->
+     <h2>Registration Form</h2>
+     <form action="/submit" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" required> Male
+      <input type="radio" id="female" name="gender" value="female" required> Female<br><br>
+
+      <label for="Hobbies">My Hobbies:</label>
+      <input type="checkbox"  name="Hobbies" value="wildlife documentary"> Wildlife documentary
+      <input type="checkbox"  name="Hobbid=" value="studying"> Studying
+      <input type="checkbox"  name="Hobbies" value="playstation"> Playstation
+      <input type="checkbox"  name="Hobbies" value="adventure"> Adventure
+      <br><br>
+
+      <label for="city">City:</label>
+      <select id="city" name="city" required>
+          <option value="juba">Juba</option>
+          <option value="bentiu">Bentiu</option>
+          <option value="bor">Bor</option>
+      </select><br><br>
+
+     </form>
+  </section>
+
+  <section>
+<!-- Audio Section -->
+<section>
+  <h2>Listen to a Sample Audio</h2>
+  <audio controls>
+    <source src="https://www.bensound.com/bensound-music/bensound-rainymorning.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</section>
+
+<!-- Video Section -->
+<section>
+  <h2>Watch a Sample Video</h2>
+  <video width="500" controls autoplay muted>
+      <source src="https://videos.pexels.com/video-files/27592976/12178833_640_360_30fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+</section>
+
+<!-- Footer Section -->
+<footer>
+  <p>&copy; 2025 My Website | <a href="rjalduong@gmail.com">Contact Us</a></p>
+</footer>
+
+  </body>
+</html>
